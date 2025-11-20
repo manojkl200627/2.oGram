@@ -1,4 +1,9 @@
 # 2.oGram
+
+
+## 📁 Project Structure
+
+```
 server/
  ├─ config/
  │   └─ DBconnect.js
@@ -61,6 +66,7 @@ ui/
  ├─ vite.config.js
  ├─ README.md
  └─ tree.txt
+```
 
  ├─ vite.config.js
  ├─ README.md

@@ -1,21 +1,60 @@
 # 2.oGram
-+---server
-ª   ª   .env
-ª   ª   package-lock.json
-ª   ª   package.json
-ª   ª   server.js
-ª   ª   
-ª   +---config
-ª   ª       DBconnect.js
-ª   ª       
-ª   +---controller
-ª   ª       MessControl.js
-ª   ª       UserController.js
-ª   ª       
-ª   +---middlewares
-ª   ª       CreateToken.js
-ª   ª       
-ª   +---model
-ª   ª       MessModel.js
-ª   ª       User.js
-ª   ª       
+server/
+ ├─ config/
+ │   └─ DBconnect.js
+ │
+ ├─ controller/
+ │   ├─ MessControl.js
+ │   └─ UserController.js
+ │
+ ├─ middlewares/
+ │   └─ CreateToken.js
+ │
+ ├─ model/
+ │   ├─ MessModel.js
+ │   └─ User.js
+ │
+ ├─ routes/
+ │   ├─ MessRoute.js
+ │   └─ UserRoute.js
+ │
+ ├─ node_modules/
+ │
+ ├─ .env
+ ├─ package.json
+ ├─ package-lock.json
+ └─ server.js
+ui/
+ ├─ public/
+ │   └─ index.html
+ │
+ ├─ src/
+ │   ├─ assets/
+ │   │   └─ (images / icons / static files)
+ │   │
+ │   ├─ components/
+ │   │   ├─ AddFrdPop.jsx
+ │   │   ├─ Al.jsx
+ │   │   ├─ ChatWindow.jsx
+ │   │   ├─ Hc.jsx
+ │   │   ├─ Lc.jsx
+ │   │   ├─ Notpop.jsx
+ │   │   ├─ Rc.jsx
+ │   │   └─ UsersList.jsx
+ │   │
+ │   ├─ css/
+ │   │   └─ (global and component styles)
+ │   │
+ │   ├─ pages/
+ │   │   └─ App.jsx
+ │   │
+ │   ├─ App.jsx
+ │   └─ main.jsx
+ │
+ ├─ .env
+ ├─ .gitignore
+ ├─ eslint.config.js
+ ├─ package.json
+ ├─ package-lock.json
+ ├─ vite.config.js
+ ├─ README.md

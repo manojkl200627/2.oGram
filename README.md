@@ -24,6 +24,8 @@ server/
  ├─ package.json
  ├─ package-lock.json
  └─ server.js
+
+
 ui/
  ├─ public/
  │   └─ index.html
@@ -56,5 +58,9 @@ ui/
  ├─ eslint.config.js
  ├─ package.json
  ├─ package-lock.json
+ ├─ vite.config.js
+ ├─ README.md
+ └─ tree.txt
+
  ├─ vite.config.js
  ├─ README.md
